@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arya Production and Suppliers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-bxhzlHqYF96ZK6+7MZr+O/0gAmEACeKBuAH+drPoO6I3E7sbR0m0mG4HoIG6PGq7nCd5KeEmfjfobxVmSDk1Wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #283048, #859398);
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+    .company-name {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #fcd34d;
+    }
+    nav {
+      background: #111827;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fcd34d;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1520975911460-70e0333c107b') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+      font-size: 2.5rem;
+      color: #d97706;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      height: 4px;
+      width: 60px;
+      background: #d97706;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .about, .services, .products, .quotes, .contact {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 60px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 10px 0;
+      font-size: 1.1rem;
+    }
+    .products img {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1f2937;
+      color: #fff;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+    }
+    .socials a {
+      margin: 0 10px;
+      color: #fcd34d;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 2rem;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Arya Logo" class="logo">
+    <div class="company-name">Arya Production and Suppliers</div>
+    <p>Founder: Mahesh Acharya & Others</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#products">Our Creations</a>
+    <a href="#quotes">Quotes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Where Passion Meets Fabric – Custom Clothing Designed Just for You</h2>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <h2 class="section-title">About Us</h2>
+      <p><strong>Arya Production and Suppliers</strong> is your creative hub for made-to-order fashion. We turn your vision into reality with a commitment to craftsmanship, sustainability, and unmatched style.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="services">
+      <h2 class="section-title">What We Offer</h2>
+      <ul>
+        <li><i class="fas fa-tshirt"></i> Custom Clothing & Uniform Design</li>
+        <li><i class="fas fa-industry"></i> Factory-level Precision and Quality</li>
+        <li><i class="fas fa-palette"></i> Full Custom Branding: Print, Embroidery & Packaging</li>
+        <li><i class="fas fa-shipping-fast"></i> On-Time Delivery for Bulk & Retail</li>
+        <li><i class="fas fa-leaf"></i> Eco-Friendly Materials</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="products">
+      <h2 class="section-title">Our Creations</h2>
+      <p>All products are made in our factory with top-quality materials and care.</p>
+      <img src="1.jpg" alt="Factory Clothes">
+      <img src="20.jpg" alt="Garments Production">
+    </div
+  </section>
+
+  <section id="quotes">
+    <div class="quotes">
+      <h2 class="section-title">What Inspires Us</h2>
+      <ul>
+        <li>"Style is a way to say who you are without having to speak." – Rachel Zoe</li>
+        <li>"Great design is born of simplicity and clarity." – Lindon Leader</li>
+        <li>"Fashion is the armor to survive the reality of everyday life." – Bill Cunningham</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <p><strong>Email:</strong> <a href="mailto:Aryaproductionsuppliers@gmail.com">Aryaproductionsuppliers@gmail.com</a></p>
+      <p><strong>Phone:</strong> 9840361654</p>
+      <p><strong>Location:</strong> Kathmandu, Nepal</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Arya Production and Suppliers. All rights reserved. Made with dedication in Nepal.</p>
+  </footer>
+</body>
+</html>
